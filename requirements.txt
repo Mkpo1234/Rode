@@ -1,4 +1,4 @@
-os
+
 requests
 user_agent
 heroku3
