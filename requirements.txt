@@ -3,8 +3,8 @@ user_agent
 heroku3
 gitpython
 requests
-asyncio
 Pyrogram
 telebot
 json
+os
 
