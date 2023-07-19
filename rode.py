@@ -1,5 +1,5 @@
 import pyrogram;from pyrogram import client;from pyrogram import *;from pyrogram.types import *;import requests,re;from time import sleep;from pyrogram.errors import FloodWait ,BadRequest
-info = open("info.txt",'r').read();tok = info.split('\n')[0];idown = info.split('\n')[1]
+info1 = open("info1.txt",'r').read();tok = info1.split('\n')[0];idown = info1.split('\n')[1]
 r = open("user.txt").read()
 mk = r.replace("@", "")
 o = mk.replace(" ", "")
@@ -10,7 +10,7 @@ if "tgme_username_link" not in req:
 	v = requests.post(f'https://api.telegram.org/bot{tok}/sendMessage?chat_id={idown}&text=- The user is used😡')
 	exit("The user is used")
 while True:
-	for session in open("account.txt","r").read().split("\n"):
+	for session in open("account1.txt","r").read().split("\n"):
 		if session != "":
 			try:
 				if session != " ":
