@@ -7,5 +7,4 @@ asyncio
 Pyrogram
 telebot
 json
-random
-os
+
