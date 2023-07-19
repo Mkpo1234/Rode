@@ -23,16 +23,16 @@ def perform_check(user, session_string, bot_token, chat_id):
         requests.post(f"https://api.telegram.org/bot{bot_token}/sendmessage?chat_id={chat_id}&text={e}")
         print(str(e))
 
-with open('account.txt', 'r') as g:
+with open('account1.txt', 'r') as g:
     users = g.read().splitlines()
 
-with open('info.txt', 'r') as b:
+with open('info1.txt', 'r') as b:
     user = b.read()
 
 count = len(users)
 i = 0
 
-info = open("info.txt",'r').read();bot_token = info.split('\n')[0];chat_id = info.split('\n')[1]
+info1 = open("info1.txt",'r').read();bot_token = info1.split('\n')[0];chat_id = info1.split('\n')[1]
 
 while True:
     session_string = users[i]
