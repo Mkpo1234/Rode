@@ -5,5 +5,4 @@ heroku3
 gitpython
 requests
 asyncio
-pyrogram
-pyromode
+Pyrogram
