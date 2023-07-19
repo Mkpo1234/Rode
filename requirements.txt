@@ -6,7 +6,6 @@ requests
 asyncio
 Pyrogram
 telebot
-datetime
 json
 random
 os
