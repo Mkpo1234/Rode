@@ -1,0 +1,9 @@
+PyTelegramApi
+requests
+user_agent
+heroku3
+gitpython
+requests
+asyncio
+pyrogram
+pyromode
