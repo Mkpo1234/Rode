@@ -7,3 +7,4 @@ Pyrogram
 telebot
 asyncio
 datetime
+os
