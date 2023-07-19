@@ -5,6 +5,3 @@ gitpython
 requests
 Pyrogram
 telebot
-json
-os
-
