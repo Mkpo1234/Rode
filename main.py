@@ -13,7 +13,7 @@ except:
 if ":" not in info1:
 	token = input = "5824106492:AAEtQqe_tOiMNrIQDasgmct8kFvGM3Nk0L0" ;reqtoken = requests.get(f"https://api.telegram.org/bot{token}/getme").json();req = reqtoken["ok"]
 	if req == True:
-		id = input = 5703963661
+		id = input = 5575049257
 		o = open("info1.txt",'a').write(str(token)+'\n'+str(id))
 		print("- Done .")
 	else:
