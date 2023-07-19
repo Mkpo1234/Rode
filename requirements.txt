@@ -5,3 +5,5 @@ gitpython
 requests
 Pyrogram
 telebot
+asyncio
+datetime
