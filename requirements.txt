@@ -1,4 +1,3 @@
-PyTelegramApi
 requests
 user_agent
 heroku3
